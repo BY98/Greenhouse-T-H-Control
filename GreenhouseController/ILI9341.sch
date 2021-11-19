@@ -36,9 +36,9 @@ PA6(22)
 Text Label 3600 3600 2    50   ~ 0
 PA5(21)
 Text Label 3600 3800 2    50   ~ 0
-VSS(18)
-Text Label 3600 3900 2    50   ~ 0
 VDD(19)
+Text Label 3600 3900 2    50   ~ 0
+VSS(18)
 $Comp
 L Driver_Display:ili9341-new U?
 U 1 1 61964760
