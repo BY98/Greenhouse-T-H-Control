@@ -14,20 +14,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor:DHT11 U?
+L Sensor:DHT11 U
 U 1 1 619945DD
 P 5100 2750
-F 0 "U?" H 4856 2796 50  0000 R CNN
+F 0 "U" H 4856 2796 50  0000 R CNN
 F 1 "DHT11" H 4856 2705 50  0000 R CNN
 F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 5100 2350 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 5250 3000 50  0001 C CNN
 	1    5100 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 2350 0    50   Input ~ 0
-3.3V
 Text GLabel 6150 2750 2    50   Input ~ 0
-PA1
+ADC_IN0(PA1)
 Text GLabel 4000 3200 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -80,4 +78,6 @@ Wire Wire Line
 Connection ~ 5800 2750
 Wire Wire Line
 	5800 2750 6150 2750
+Text GLabel 4000 2350 0    50   Input ~ 0
+3.3V(PA14)
 $EndSCHEMATC
