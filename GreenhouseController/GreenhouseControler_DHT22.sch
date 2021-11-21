@@ -26,14 +26,10 @@ F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 5250 3000 50  0001
 $EndComp
 Text GLabel 6150 2750 2    50   Input ~ 0
 ADC_IN0(PA1)
-Text GLabel 4000 3200 0    50   Input ~ 0
-GND
 Wire Wire Line
 	4000 2350 4200 2350
 Wire Wire Line
 	5100 2350 5100 2450
-Wire Wire Line
-	4000 3200 4200 3200
 Wire Wire Line
 	5100 3200 5100 3050
 $Comp
@@ -54,7 +50,6 @@ Wire Wire Line
 	4200 2350 5100 2350
 Wire Wire Line
 	4200 2900 4200 3200
-Connection ~ 4200 3200
 Wire Wire Line
 	4200 3200 5100 3200
 $Comp
@@ -78,6 +73,27 @@ Wire Wire Line
 Connection ~ 5800 2750
 Wire Wire Line
 	5800 2750 6150 2750
-Text GLabel 4000 2350 0    50   Input ~ 0
-3.3V(PA14)
+$Comp
+L power:GND #PWR?
+U 1 1 6199D502
+P 4200 3200
+F 0 "#PWR?" H 4200 2950 50  0001 C CNN
+F 1 "GND" H 4205 3027 50  0000 C CNN
+F 2 "" H 4200 3200 50  0001 C CNN
+F 3 "" H 4200 3200 50  0001 C CNN
+	1    4200 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 3200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6199E09B
+P 4000 2350
+F 0 "#PWR?" H 4000 2200 50  0001 C CNN
+F 1 "+3.3V" H 4015 2523 50  0000 C CNN
+F 2 "" H 4000 2350 50  0001 C CNN
+F 3 "" H 4000 2350 50  0001 C CNN
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

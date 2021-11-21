@@ -40,7 +40,7 @@ VDD(19)
 Text Label 3600 3900 2    50   ~ 0
 VSS(18)
 $Comp
-L Driver_Display:ili9341-new U?
+L GreenhouseController-rescue:ili9341-new-Driver_Display U?
 U 1 1 61964760
 P 5800 3050
 F 0 "U?" H 5800 4315 50  0000 C CNN

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NUCLEO-F410RB:NUCLEO-F410RB U?
+L GreenhouseController-rescue:NUCLEO-F410RB-NUCLEO-F410RB U?
 U 1 1 61938EA9
 P 2200 2550
 F 0 "U?" H 2200 4317 50  0000 C CNN
@@ -28,7 +28,7 @@ F 6 "Manufacturer Recommendations" H 2200 2550 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NUCLEO-F410RB:NUCLEO-F410RB U?
+L GreenhouseController-rescue:NUCLEO-F410RB-NUCLEO-F410RB U?
 U 2 1 6193B543
 P 4400 2550
 F 0 "U?" H 4400 4217 50  0000 C CNN
@@ -42,7 +42,7 @@ F 6 "Manufacturer Recommendations" H 4400 2550 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NUCLEO-F410RB:NUCLEO-F410RB U?
+L GreenhouseController-rescue:NUCLEO-F410RB-NUCLEO-F410RB U?
 U 3 1 6193DFBD
 P 6500 2000
 F 0 "U?" H 6500 2567 50  0000 C CNN
@@ -56,7 +56,7 @@ F 6 "Manufacturer Recommendations" H 6500 2000 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NUCLEO-F410RB:NUCLEO-F410RB U?
+L GreenhouseController-rescue:NUCLEO-F410RB-NUCLEO-F410RB U?
 U 4 1 619400A3
 P 8450 2050
 F 0 "U?" H 8680 2096 50  0000 L CNN
@@ -70,7 +70,7 @@ F 6 "Manufacturer Recommendations" H 8450 2050 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NUCLEO-F410RB:NUCLEO-F410RB U?
+L GreenhouseController-rescue:NUCLEO-F410RB-NUCLEO-F410RB U?
 U 5 1 61941A55
 P 2100 5700
 F 0 "U?" H 2330 5696 50  0000 L CNN
@@ -84,7 +84,7 @@ F 6 "Manufacturer Recommendations" H 2100 5700 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NUCLEO-F410RB:NUCLEO-F410RB U?
+L GreenhouseController-rescue:NUCLEO-F410RB-NUCLEO-F410RB U?
 U 6 1 6194455B
 P 4200 5600
 F 0 "U?" H 4200 6367 50  0000 C CNN
@@ -97,4 +97,8 @@ F 6 "Manufacturer Recommendations" H 4200 5600 50  0001 L BNN "STANDARD"
 	6    4200 5600
 	1    0    0    -1  
 $EndComp
+Text GLabel 1100 2150 0    50   Input ~ 0
+ADC_IN0(PA1)
+Wire Wire Line
+	1500 2150 1100 2150
 $EndSCHEMATC
