@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name GreenhouseController-rescue)(type Legacy)(uri ${KIPRJMOD}/GreenhouseController-rescue.lib)(options "")(descr ""))
+  (lib (name BH1750FVI-TR)(type Legacy)(uri C:/Users/ashar/Downloads/BH1750FVI-TR/BH1750FVI-TR.lib)(options "")(descr ""))
 )
